@@ -41,6 +41,7 @@
 @import '../app/home/home.less';
 @import '../app/header/header.less';
 @import '../app/resume/resume.less';
+@import '../app/projects/projects.less';
 
 .text-green {
   color: @green;
@@ -54,6 +55,10 @@
   font-weight: bold;
 }
 
-a:hover {
-  text-decoration: none;
+a {
+  color: @green;
+  &:hover {
+    color: darken(@green, 5%);
+    text-decoration: none;
+  }
 }

@@ -39,7 +39,7 @@ module.controller 'ResumeCtrl', () ->
         the exceptionnal french jazz pianist Antoine
         Hervé to organize venues, sell shows, produce discs
         etc. I also reorganized the IT structure of the
-        company'
+        company.'
       ,
         title: 'Research internship'
         description: 'My job was to design a collagen fiber traction
