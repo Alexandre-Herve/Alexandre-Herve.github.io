@@ -28,7 +28,7 @@ module.controller 'ResumeCtrl', () ->
         they could have feedback for every
         choice they have to take. I especially took care of product
         management, front-dev and UI design in addition to
-        all the strategic choices inherent to the life of a
+        all the problematics inherent to the life of a
         startup.'
         highlight: '"Shapter, you are my heroes !!" a
         student from Centrale Lyon'
@@ -42,9 +42,13 @@ module.controller 'ResumeCtrl', () ->
         company'
       ,
         title: 'Research internship'
+        description: 'My job was to design a collagen fiber traction
+        test that fitted under an atomic force microscope. I
+        produced a working prototype and had a very fine overview of
+        the functionning of a research lab in the UK.'
         institution: 'Eastman Dental Institute'
-        highlight: 'Placement tutor offered me to come back
-        for a PhD whenever I wanted'
+        highlight: 'It wentvery well and my placement tutor offered me
+        to come back for a PhD whenever I wanted :-)'
       ]
     ,
       title: 'Education'
