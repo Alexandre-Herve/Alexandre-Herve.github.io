@@ -1,16 +1,16 @@
 {
-  "author": "Josh David Miller",
-  "name": "ngbp",
-  "version": "0.3.2",
-  "homepage": "https://github.com/ngbp/ngbp",
+  "author": "Alexandre Herve",
+  "name": "alexcom",
+  "version": "1.0.0",
+  "homepage": "http://alexandreherve.github.io/",
   "licenses": {
     "type": "MIT",
-    "url": "https://raw.github.com/ngbp/ngbp/master/LICENSE"
+    "url": "https://github.com/Alexandre-Herve/Alexandre-Herve.github.io/blob/src/LICENSE"
   },
-  "bugs": "https://github.com/ngbp/ngbp/issues",
+  "bugs": "https://github.com/Alexandre-Herve/Alexandre-Herve.github.io/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ngbp/ngbp.git"
+    "url": "https://github.com/Alexandre-Herve/Alexandre-Herve.github.io"
   },
   "dependencies": {},
   "devDependencies": {
