@@ -47,7 +47,7 @@ module.controller 'ResumeCtrl', () ->
         produced a working prototype and had a very fine overview of
         the functionning of a research lab in the UK.'
         institution: 'Eastman Dental Institute'
-        highlight: 'It wentvery well and my placement tutor offered me
+        highlight: 'It went very well and my placement tutor offered me
         to come back for a PhD whenever I wanted :-)'
       ]
     ,
