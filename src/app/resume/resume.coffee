@@ -20,7 +20,11 @@ module.controller 'ResumeCtrl', () ->
     this.sections = [
       title: 'Experience'
       steps: [
-        title: 'co-founder'
+        title: 'Web Developer'
+        institution: 'Small Improvements GmbH'
+        description: 'Lean and agile performance and peer management software'
+      ,
+        title: 'Co-founder'
         institution: 'Shapter'
         description: 'Students must take many choices all
         along their studies, and choosing is hard. Shapter
@@ -47,7 +51,7 @@ module.controller 'ResumeCtrl', () ->
         produced a working prototype and had a very fine overview of
         the functionning of a research lab in the UK.'
         institution: 'Eastman Dental Institute'
-        highlight: 'It went very well and my placement tutor offered me
+        highlight: 'It went so well that my placement tutor offered me
         to come back for a PhD whenever I wanted :-)'
       ]
     ,
