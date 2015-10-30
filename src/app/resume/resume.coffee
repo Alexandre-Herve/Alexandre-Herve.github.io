@@ -23,14 +23,16 @@ module.controller 'ResumeCtrl', () ->
         title: 'Web Developer'
         institution: 'Small Improvements GmbH'
         description: 'Small Improvements is a lean performance and peer
-        management software based in Berlin. I have joined the team for
+        management software based in Berlin. I joined the team for
         5 months as an AngularJS developer.'
+        highlight: 'We issued a pretty neat objective management module.
+        You should try it!'
       ,
         title: 'Feelance'
-        description: 'Working on multiple projects with AngularJS, notably
-        Hunteed and Ouicar'
-        highlight: 'Made two apps in a single month for Ouicar, and they
-        went to production bug free'
+        description: 'Working on multiple projects with AngularJS, amongst which
+        Hunteed and Ouicar.'
+        highlight: 'I made two adaptative apps in one month for Ouicar, and they
+        went to production bug free. Yay :-)'
       ,
         title: 'Co-founder'
         institution: 'Shapter'
