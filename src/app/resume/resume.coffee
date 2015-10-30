@@ -44,7 +44,7 @@ module.controller 'ResumeCtrl', () ->
         title: 'Assistant music producer'
         institution: 'RV Productions'
         description: 'Working alongside my father,
-        the exceptionnal french jazz pianist Antoine
+        the french jazz pianist Antoine
         Hervé to organize venues, sell shows, produce discs
         etc. I also reorganized the IT structure of the
         company.'
