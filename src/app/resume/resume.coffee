@@ -22,20 +22,25 @@ module.controller 'ResumeCtrl', () ->
       steps: [
         title: 'Web Developer'
         institution: 'Small Improvements GmbH'
+        startDate: 'Jun 2015'
+        endDate: 'Oct 2015'
         description: 'Small Improvements is a lean performance and peer
         management software based in Berlin. I joined the team for
         5 months as an AngularJS developer.'
-        highlight: 'We issued a pretty neat objective management module.
-        You should try it!'
+        highlight: 'We issued a pretty neat objective management module.'
       ,
         title: 'Feelance'
+        startDate: 'Oct 2014'
+        endDate: 'Apr 2015'
         description: 'Working on multiple projects with AngularJS, amongst which
         Hunteed and Ouicar.'
-        highlight: 'I made two adaptative apps in one month for Ouicar, and they
-        went to production bug free. Yay :-)'
+        highlight: 'The two adaptative apps I made in one month for Ouicar
+        went to production bug free.'
       ,
         title: 'Co-founder'
         institution: 'Shapter'
+        startDate: 'Mar 2013'
+        endDate: 'Sep 2014'
         description: 'Students must take many choices all
         along their studies, and choosing is hard. Shapter
         was an attempt to give them a unique platform where
@@ -45,9 +50,11 @@ module.controller 'ResumeCtrl', () ->
         all the problematics inherent to the life of a
         startup.'
         highlight: '"Shapter, you are my heroes !!" a
-        student from Centrale Lyon'
+        student from Centrale Lyon.'
       ,
         title: 'Assistant music producer'
+        startDate: 'Sep 2012'
+        endDate: 'Mar 2013'
         institution: 'RV Productions'
         description: 'Working alongside my father,
         the french jazz pianist Antoine
@@ -56,18 +63,22 @@ module.controller 'ResumeCtrl', () ->
         company.'
       ,
         title: 'Research internship'
+        startDate: 'Apr 2011'
+        endDate: 'Jul 2011'
         description: 'My job was to design a collagen fiber traction
         test that fitted under an atomic force microscope. I
         produced a working prototype and had a very fine overview of
         the functionning of a research lab in the UK.'
         institution: 'Eastman Dental Institute'
         highlight: 'It went so well that my placement tutor offered me
-        to come back for a PhD whenever I wanted :-)'
+        to come back for a PhD :-)'
       ]
     ,
       title: 'Education'
       steps: [
         title: 'General Engineering'
+        startDate: 'Nov 2012'
+        endDate: 'Sep 2009'
         institution: 'École Centrale de Lyon'
         description: 'Gives you a broad engineering and
         managerial culture, from mechanical engineering
@@ -77,19 +88,20 @@ module.controller 'ResumeCtrl', () ->
       ,
         title: 'Prépa maths and physics'
         institution: 'lycée charlemagne'
+        startDate: 'Sep 2007'
+        endDate: 'Jun 2009'
         description: 'Ultra intensive maths and physics
         course to prepare for the national engineering
         schools exam. 60 hours work per week minimunm,
         high pressure. Extremly challenging. And a lot
         of fun !'
-        highlight: 'Went from 47th over 50 to 7th in
-        maths in one year, then reached A+ level /
-        top-10 school'
+        highlight: 'Went from position 47 to 7 over 50 in
+        maths in one year, then reached top-10 school.'
       ,
         title: 'A-level: baccalauréat'
+        startDate: 'Jun 2007'
         institution: 'Lycée Charlemagne'
         highlight: 'Mention très bien (with honors).
-         19/20 in both maths and physics'
+         19/20 in both maths and physics.'
       ]
-
     ]
