@@ -1,41 +1,41 @@
-describe 'workflow', () ->
+describe 'tools', () ->
   $state = $scope = $rootScope = $controller = createController = {}
 
-  beforeEach window.angular.mock.module 'alexcom.workflow'
+  beforeEach window.angular.mock.module 'alexcom.tools'
 
-  # describe the workflow routing
-  describe 'Workflow Routing', () ->
+  # describe the tools routing
+  describe 'Tools Routing', () ->
     beforeEach inject ($injector) ->
       $state = $injector.get '$state'
       $rootScope = $injector.get '$rootScope'
-      $state.go 'workflow'
+      $state.go 'tools'
       $rootScope.$digest()
 
-    it 'Should load the workflow template', () ->
+    it 'Should load the tools template', () ->
       expect( $state.current.views.main.templateUrl )\
-        .toBe 'workflow/workflow.tpl.html'
+        .toBe 'tools/tools.tpl.html'
 
-    it 'Should load the workflow controller', () ->
+    it 'Should load the tools controller', () ->
       expect( $state.current.views.main.controller )\
-        .toBe 'WorkflowCtrl'
+        .toBe 'ToolsCtrl'
 
-    it 'Should have a workflow pagetitle', () ->
+    it 'Should have a tools pagetitle', () ->
       expect( $state.current.data.pageTitle )\
-        .toBe 'Workflow'
+        .toBe 'Tools'
 
 
   # controller
-  describe 'Workflow Controller', () ->
+  describe 'Tools Controller', () ->
     beforeEach inject ( $injector ) ->
       $state = $injector.get '$state'
       $rootScope = $injector.get '$rootScope'
       $scope = $rootScope.$new()
       $controller = $injector.get '$controller'
       createController = () ->
-        return $controller 'WorkflowCtrl',
+        return $controller 'ToolsCtrl',
           $scope: $scope
 
-    it 'should have a workflow Controller defined', () ->
+    it 'should have a tools Controller defined', () ->
       controller = createController()
       expect( controller ).toBeDefined()
 

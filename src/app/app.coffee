@@ -6,7 +6,7 @@ module = angular.module "alexcom", [
   'alexcom.header',
   'alexcom.resume',
   'alexcom.projects',
-  'alexcom.workflow'
+  'alexcom.tools'
 ]
 
 module.config ($stateProvider, $urlRouterProvider) ->
