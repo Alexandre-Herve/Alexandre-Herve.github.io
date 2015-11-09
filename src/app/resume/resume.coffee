@@ -27,7 +27,7 @@ module.controller 'ResumeCtrl', () ->
         description: 'Small Improvements is a lean performance and peer
         management software company based in Berlin. I joined the team for
         5 months as an AngularJS developer.'
-        highlight: 'We issued a pretty neat objective management module.'
+        highlight: 'We issued a pretty neat objective management module!'
       ,
         title: 'Feelance'
         startDate: 'Oct 2014'
