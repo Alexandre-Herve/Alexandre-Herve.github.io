@@ -37,7 +37,7 @@ module.controller 'ResumeCtrl', () ->
       ,
         title: 'Personal project'
         institution: 'Curious.so'
-        startDate: 'Oct 2016'
+        startDate: 'Nov 2015'
         endDate: 'Feb 2016'
         description: 'A web platform to crowdsource questions.
         NodeJS, Koa, React Universal rendering, Redux, MongoDB.'
@@ -57,7 +57,7 @@ module.controller 'ResumeCtrl', () ->
         description: 'Main projects:'
         projects: [
           name: 'Hunteed'
-          description: 'Build hunteed.com from scratch and iterated on
+          description: 'Built hunteed.com from scratch and iterated on
           the product with the team.'
         ,
           name: 'Ouicar',

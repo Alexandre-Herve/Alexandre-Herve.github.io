@@ -47,7 +47,8 @@
 .text-green {
   color: @green !important;
   @media print {
-    -webkit-print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact;
+		-webkit-text-fill-color: @green;
   }
 }
 
@@ -64,5 +65,9 @@ a {
   &:hover {
     color: darken(@green, 5%);
     text-decoration: none;
+  }
+  @media print {
+    -webkit-print-color-adjust: exact;
+		-webkit-text-fill-color: @green;
   }
 }
