@@ -14,3 +14,15 @@
   width: 67px;
   border-radius: 33.5px;
 }
+
+.resume-pic {
+  display: none;
+  @media print {
+    display: block;
+ 	}
+  &:extend( .thumbnail );
+  margin-top: 0px;
+  margin-bottom: 4px;
+  height: 67px;
+  width: 67px;
+}

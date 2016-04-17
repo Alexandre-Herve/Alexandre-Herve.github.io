@@ -45,7 +45,10 @@
 @import '../app/tools/tools.less';
 
 .text-green {
-  color: @green;
+  color: @green !important;
+  @media print {
+    -webkit-print-color-adjust: exact !important;
+  }
 }
 
 @font-family-sans-serif:  "Muli", Helvetica, Arial, sans-serif;

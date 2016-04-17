@@ -1,6 +1,11 @@
 .resume-section {
   margin-bottom: 40px;
 }
+
+.contact-section {
+  margin-top: 20px;
+}
+
 .resume-step {
   & .lead {
     margin-bottom: 15px;
@@ -10,16 +15,34 @@
   }
   & .highlight {
     font-style: italic;
-    text-align: justify;
   }
   & .description {
-    text-align: justify;
     & + .highlight {
       margin-top: 10px;
     }
   }
+	& .projects {
+		ul {
+  		margin: 5px 0 0 0;
+			padding-left: 20px;
+		}
+		ul.dashed {
+  		list-style-type: none;
+		}
+		ul.dashed > li {
+  		text-indent: -5px;
+      margin-bottom: 6px;
+		}
+		ul.dashed > li:before {
+  		content: "-";
+  		text-indent: -5px;
+		}
+	}
   .date {
     color: @green;
+    @media print {
+      -webkit-print-color-adjust: exact !important;
+    }
   }
 }
 

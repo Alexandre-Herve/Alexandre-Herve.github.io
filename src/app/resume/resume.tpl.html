@@ -1,6 +1,16 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-3 col-sm-4 contact-section">
+      <a>
+        <img class="resume-pic" ng-src="assets/images/moi_micro_tete_small.png">
+      </a>
+      Alexandre Hervé</br>
+      29/09/1989</br></br>
+      alexandre.herve9@gmail.com</br>
+      06 65 58 07 91</br>
+      http://alexandre-herve.github.io</br>
+    </div>
+    <div class="col-md-5 col-sm-8">
       <section class="resume-section" ng-repeat="section in resume.sections">
         <h2>{{ section.title }}</h2>
         <article class="resume-step" ng-repeat="step in section.steps" ng-include="'resume/resumeStep.tpl.html'"></article>

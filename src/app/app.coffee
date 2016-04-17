@@ -16,7 +16,7 @@ module.controller "AppCtrl", ($scope, $location) ->
 
   $scope.$on '$stateChangeSuccess', ( event, toState ) ->
     $scope.pageTitle = toState.data.pageTitle \
-    + ' | Alexandre' \
+    + ' | Alexandre Hervé' \
     if angular.isDefined toState.data.pageTitle
 
   $scope.nav = (path) ->
