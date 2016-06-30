@@ -32,7 +32,8 @@ module.controller 'ResumeCtrl', () ->
           Redux Async Connect, Universal Api calls and so on.'
         ,
           name: 'Ouicar',
-          description: 'Three months mission in complex environment. React, Redux, Flow.'
+          description: 'Three months mission in complex environment.
+          React, Redux, Flow.'
         ]
       ,
         title: 'Personal project'
